@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+  <section class="gallery">
+    <h2 class="title">Gallery</h2>
+    <div class="gallery-list">
+      <a href="img/User Avatar.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/User Avatar.jpg" alt="alt">
+      </a>
+      <a href="img/affc01d9f5a50f766cacef85129269ef.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/affc01d9f5a50f766cacef85129269ef.jpg" alt="alt">
+      </a>
+      <a href="img/Ford Focus RS RS500.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/Ford Focus RS RS500.jpg" alt="alt">
+      </a>
+      <a href="img/1968 Ford Mustang Shelby GT500 (Acapulco Blue, 428ci V8, 4-speed).jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/1968 Ford Mustang Shelby GT500 (Acapulco Blue, 428ci V8, 4-speed).jpg" alt="alt">
+      </a>
+      <a href="img/Lifted 2017 Ford Focus Overland Project — Surpassing Expectations - offroadium_com.png" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/Ford Focus RS RS500.jpg" alt="alt">
+      </a>
+      <a href="img/Thomas' Car.png" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/Thomas' Car.png" alt="alt">
+      </a>
+      <a href="img/New Ford Cars, SUVs for Sale in Livonia, MI _ Bill Brown Ford.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/New Ford Cars, SUVs for Sale in Livonia, MI _ Bill Brown Ford.jpg" alt="alt">
+      </a>
+      <a href="img/161dabb3-b05d-40ae-acf1-d186c403eb78.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/161dabb3-b05d-40ae-acf1-d186c403eb78.jpg" alt="alt">
+      </a>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+  <script>
+    $(".gallery-list").magnificPopup({
+      delegate: "a",
+      type: "image",
+      gallery: {
+        enabled: true
+      }
+    });
+  </script>
+</body>
+
+</html>
